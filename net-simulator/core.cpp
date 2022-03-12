@@ -9,6 +9,5 @@ int main() {
 	
 	while (status > 0) {
 		cin >> command;
-		if (!command.compare("exit")) status -= 1;
 	}
 }

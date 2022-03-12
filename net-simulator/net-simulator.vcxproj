@@ -140,6 +140,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="core.cpp" />
+    <ClCompile Include="net_router.cpp" />
+    <ClCompile Include="net_simulator.cpp" />
+    <ClCompile Include="net_switch.cpp" />
+    <ClCompile Include="net_terminal.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="net_router.h" />
+    <ClInclude Include="net_simulator.h" />
+    <ClInclude Include="net_switch.h" />
+    <ClInclude Include="net_terminal.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
